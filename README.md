@@ -32,11 +32,9 @@ Projenin ana dizini;
 * Node.js
 * Yarn
 
-##KURULUM
-# zlm (zlm)
-zlm
+## KURULUM
 
-## Install the dependencies
+Install the dependencies
 ```bash
 yarn
 # or
