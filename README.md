@@ -10,7 +10,8 @@ Gerekli Şeyler sitesinin Quasar Framework kullanılarak yeniden oluşturulmuş 
 Projenin ilk bölümünde sitenin kullanıcı arayüzü klonlanırken, ikinci repoda dinamik veri yönetimi ve kullanıcı etkileşimleri için Firebase (Authentication & Firestore) ve Pinia entegrasyonları ile tam işlevsel bir yapıya sahip olması amaçlanmıştır. Sepet fonksiyonelliği de bu entegrasyonları(sepet firebase ile firebase okuma yazmaları da pinia store içinden yapıldı) önemli bir parçasıdır.
 
 ## Proje Yapısı
-
+Projenin ana dizini;
+```
 ├── src/                          # Quasar kaynak kodları, proje içeriğinin oluşturulduğu yer
 │   ├── layouts/                  # Uygulama düzenleri| MyMainLyout site klonunun bulunduğu düzen iken diğer layotlar örnektir
 │   ├── pages/                    # Uygulama sayfaları
@@ -19,7 +20,7 @@ Projenin ilk bölümünde sitenin kullanıcı arayüzü klonlanırken, ikinci re
 │   │   ├── StoreForPinia         # Diğer Pinia store'ları örnektir
 │   ├── router                    # router ile layout içinde bağlantı verdiğimiz componente yönlendirir
 │   └── ...
-
+```
 **Not:** Firebase ile yapılan tüm okuma ve yazma işlemleri, uygulama durumunun merkezi ve tutarlı bir şekilde yönetilmesi için `src/stores` dizini altındaki ilgili Pinia store'ları (StoreForPinia.ts) üzerinden gerçekleştirilir. Bu yaklaşım, veri akışını düzenler ve uygulamanın bakımı ile ölçeklenebilirliğini artırır.
 
 ## Kullanılan Teknolojiler
