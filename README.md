@@ -11,7 +11,6 @@ Projenin ilk bölümünde sitenin kullanıcı arayüzü klonlanırken, ikinci re
 
 ## Proje Yapısı
 
-Projenin ana dizini;
 ├── src/                          # Quasar kaynak kodları, proje içeriğinin oluşturulduğu yer
 │   ├── layouts/                  # Uygulama düzenleri| MyMainLyout site klonunun bulunduğu düzen iken diğer layotlar örnektir
 │   ├── pages/                    # Uygulama sayfaları
