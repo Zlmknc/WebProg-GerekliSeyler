@@ -21,7 +21,7 @@ Projenin ana dizini;
 │   ├── router                    # router ile layout içinde bağlantı verdiğimiz componente yönlendirir
 │   └── ...
 ```
-**Not:** Firebase ile yapılan tüm okuma ve yazma işlemleri, uygulama durumunun merkezi ve tutarlı bir şekilde yönetilmesi için `src/stores` dizini altındaki ilgili Pinia store'ları (StoreForPinia.ts) üzerinden gerçekleştirilir. Bu yaklaşım, veri akışını düzenler ve uygulamanın bakımı ile ölçeklenebilirliğini artırır.
+**Not:** Firebase ile yapılan tüm okuma ve yazma işlemleri, uygulama durumunun merkezi ve tutarlı bir şekilde yönetilmesi için `src/stores` dizini altındaki ilgili Pinia store'ları **(StoreForPinia.ts)** üzerinden gerçekleştirilir. Bu yaklaşım, veri akışını düzenler ve uygulamanın bakımı ile ölçeklenebilirliğini artırır.
 
 ## Kullanılan Teknolojiler
 
